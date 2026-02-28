@@ -28,6 +28,11 @@ Long tasks often fail because:
 5. Continuous docs updates (`documentation.md`) during implementation.
 6. Final verification before completion claims.
 
+### Intake behavior
+
+If the user provides only a high-level goal, the skill must not jump to execution.
+It must invoke brainstorming first and fill required intake fields (scope boundaries, constraints, verification commands, execution preferences) before plan generation.
+
 ## References
 
 Primary reference:
